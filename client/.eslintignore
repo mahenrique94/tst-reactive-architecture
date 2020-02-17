@@ -1,0 +1,7 @@
+.vscode
+/build/
+/config/
+/coverage/
+/node_modules/
+/public/
+/scripts/

@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "./src/server",
+    "license": "MIT",
+    "dependencies": {
+        "fastest-validator": "^0.6.19",
+        "koa": "^2.11.0",
+        "mysql2": "^2.0.2",
+        "sequelize": "^5.21.3",
+        "socket.io": "^2.3.0"
+    },
+    "scripts": {
+        "start": "nodemon",
+        "stack:up": "docker-compose up -d",
+        "stack:down": "docker-compose down"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2",
+        "sequelize-cli": "^5.5.1"
+    }
+}
